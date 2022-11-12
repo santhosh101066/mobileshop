@@ -2,6 +2,7 @@
   "name": "mobile-shopping",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://santhosh101066.github.io/mobileshop",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -23,6 +24,7 @@
   "scripts": {
     "start": "concurrently  \"react-scripts start \" \"json-server -p 4000 --watch db.json\" \" npm run server \"",
     "server": "node server/Fileserver.js",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)\"",
     "eject": "react-scripts eject"
@@ -49,7 +51,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "concurrently": "^7.4.0",
+    "gh-pages": "^4.0.0",
     "json-server": "^0.17.0"
   }
-  
 }
