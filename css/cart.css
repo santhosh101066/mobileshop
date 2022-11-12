@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(239, 239, 239) ;
+}
+.Listoncart {
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.Listoncart img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.Ondisplay {
+    display: block;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.Ondisplay button {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Subtotal{
+    border-top: solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.Subtotal span{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+}
+.Removebtn{
+    background-color:#9B59B6;
+    border-width: .5px;
+    color: rgb(243, 243, 243);
+    width: 100px;
+    border-radius: 2px;
+    
+}
+.Removebtn:hover{
+    background-color: #da7dff;
+}
+.Buynow{
+    height: 30px ;
+    background-color: #9B59B6;
+    border-style: none;
+    border-radius:20px ;
+    
+}
+.Buynow:hover{
+	background-color: #bb6eda;
+}
+.Buynow:active {
+	background-color: #764689;
+}
