@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { Component, createRef } from 'react';
-import {ReactSession} from 'react-client-session'
+
 
 
 class Login extends Component {
@@ -10,7 +10,7 @@ class Login extends Component {
         super(props);
         this.forms = createRef()
         this.onformsubmit=this.onformsubmit.bind(this)
-        ReactSession.setStorageType("sessionStorage")
+        
     }
     onformsubmit(event){
         const msg=document.getElementById("incorrectcred");
@@ -19,7 +19,7 @@ class Login extends Component {
             if(value.data.length>0){
                 sessionStorage.setItem("email",value.data[0].email)
                 
-                ReactSession.set("email",value.data[0].email)
+               
                 
                 window.history.back()
             }
