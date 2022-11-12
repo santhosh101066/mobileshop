@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/logback.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.Addproduct{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    padding: 10px;
+    background-color: white;
+    border-radius:5px ;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);
+
+}
+.Formclass{
+    
+    background-color: aqua;
+}
+td:nth-child(odd){
+    width: 120px;
+}
+td:nth-child(even) input{
+    width: 90%;
+}
+tbody{
+    margin: 5px;
+}
+
+.Heading {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.Heading img {
+    width: 50px;
+}
+
+.Heading h2 {
+    color: rgb(91, 91, 91);
+    font-family: sans-serif;
+}
+.Submitbtn{
+    display: block;
+    margin: auto;
+    margin-top:10px ;
+    height: 30px;
+}

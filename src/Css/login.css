@@ -1,0 +1,86 @@
+body {
+    background-image: url("../images/logback.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(223, 223, 223);
+}
+
+.Border {
+    border-style: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+    border-color: rgb(173, 173, 173);
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    padding: 5px;
+    margin: auto;
+    width: 400px
+}
+
+.Heading {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.Heading img {
+    width: 50px;
+}
+
+.Heading h2 {
+    color: rgb(91, 91, 91);
+    font-family: sans-serif;
+}
+
+form {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: .5px;
+    padding: 5px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form span {
+    font-weight: bold;
+    margin: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+
+    height: 25px;
+}
+
+input[type=submit] {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 60px;
+    background-color: #9B59B6;
+    border-radius: 30px;
+    color: white;
+    border-style: none;
+    transition: background-color .25 ease-out;
+}
+
+input[type=submit]:hover {
+    background-color: #ba6dd8;
+}
+
+input[type=submit]:active {
+    background-color: #764689;
+}

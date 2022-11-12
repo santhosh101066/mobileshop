@@ -1,0 +1,44 @@
+{
+  "profile": [
+    {
+      "name": "Santhosh Kumar Manoharan",
+      "mobileno": "8122699536",
+      "email": "santhosh101066@gmail.com",
+      "password": "Mano10@g",
+      "security": "red",
+      "id": 1
+    },
+    {
+      "name": "Habibu",
+      "mobileno": "8122699537",
+      "email": "habi@gmai.com",
+      "password": "Mano10@g",
+      "security": "12345678",
+      "id": 2
+    }
+  ],
+  "product": [
+    {
+      "title": "Redmi 10 Prime Astral White 4GB RAM 64GB ROM",
+      "detailedtitle": "Redmi 10 Prime (Astral White 4GB RAM 64GB ROM |Helio G88 with extendable RAM Upto 2GB |FHD+ 90Hz Adaptive Sync Display)",
+      "more_details": "Processor: MediaTek Helio G88 Octa-core processor with HyperEngine 2.0 ; Up to 2.0GHz clock speed;\nBattery: 6000mAh battery with 18W fast charging support. Upto 9W reverse charging. In box - 22.5W wired charger\nDisplay: 6.5 inch FHD+ (2400x1080) Dot display with 90Hz high refresh rate and adaptive refresh rate technology; ; 180Hz touch sampling\nMemory, Storage : 4GB LPDDR4X RAM | 64GB Internal storage\nPlease contact Service Customer Support @1800 103 6286 for any product related queries\nDisplay type:FHD+,Form factor:Bar, Operating_system:MIUI 12.5;Android MIUI 12.5",
+      "quantity": "5",
+      "price": "10999",
+      "id": 1
+    }
+  ],
+  "usercart": [
+    {
+      "email": "habi@gmai.com",
+      "p_id": 1,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "email": "santhosh101066@gmail.com",
+      "p_id": 1,
+      "quantity": 1,
+      "id": 2
+    }
+  ]
+}
