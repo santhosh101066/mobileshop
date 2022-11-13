@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aca6025.css",
-    "main.js": "/static/js/main.d95db472.js",
-    "static/js/787.5f127da9.chunk.js": "/static/js/787.5f127da9.chunk.js",
-    "static/media/logback.jpg": "/static/media/logback.91a869d27ec09387f909.jpg",
-    "index.html": "/index.html",
-    "main.3aca6025.css.map": "/static/css/main.3aca6025.css.map",
-    "main.d95db472.js.map": "/static/js/main.d95db472.js.map",
-    "787.5f127da9.chunk.js.map": "/static/js/787.5f127da9.chunk.js.map"
+    "main.css": "/mobileshop/static/css/main.9c38c23f.css",
+    "main.js": "/mobileshop/static/js/main.9cefc7f5.js",
+    "static/js/787.5f127da9.chunk.js": "/mobileshop/static/js/787.5f127da9.chunk.js",
+    "static/media/logback.jpg": "/mobileshop/static/media/logback.91a869d27ec09387f909.jpg",
+    "index.html": "/mobileshop/index.html",
+    "main.9c38c23f.css.map": "/mobileshop/static/css/main.9c38c23f.css.map",
+    "main.9cefc7f5.js.map": "/mobileshop/static/js/main.9cefc7f5.js.map",
+    "787.5f127da9.chunk.js.map": "/mobileshop/static/js/787.5f127da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3aca6025.css",
-    "static/js/main.d95db472.js"
+    "static/css/main.9c38c23f.css",
+    "static/js/main.9cefc7f5.js"
   ]
 }
